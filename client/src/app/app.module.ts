@@ -32,6 +32,8 @@ import { CreatePostComponent } from './create-post/create-post.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    FormsModule,
+    MatFormFieldModule,
     MatInputModule
   ],
   providers: [],
