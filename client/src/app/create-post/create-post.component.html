@@ -1,1 +1,6 @@
-<p>create-post works!</p>
+<form #createPostForm="ngForm" (ngSubmit)="createPost()" class="post-form">
+  <mat-form-field appearance="fill" class"form-field">
+    <mat-label>Title</mat-label>
+    <inpute matInput name="title" [(ngModule)]="model.title" placeholder=""Title>
+  </mat-form-field>  
+<mat-form-field appearance="fill" class"form-field">
