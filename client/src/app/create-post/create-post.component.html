@@ -1,11 +1,11 @@
 <form #createPostForm="ngForm" (ngSubmit)="createPost()" class="post-form">
     <mat-form-field appearance="fill" class="form-field">
         <mat-label>Title</mat-label>
-        <input matInput name="title" [(ngModule)]="model.title" placeholder="Title">
+        <input matInput name="title" [(ngModel)]="model.title" placeholder="Title">
     </mat-form-field>  
     <mat-form-field appearance="fill" class="form-field">
         <mat-label>Body</mat-label>
-        <textarea matInput name="body" [(ngModule)]="model.title" placeholder="Body"></textarea>
+        <textarea matInput name="body" [(ngModel)]="model.title" placeholder="Body"></textarea>
     </mat-form-field>
     <div class="form-field">
         <button mat-raised-button color="primary" type="submit" class="form-button">createPost</button>
